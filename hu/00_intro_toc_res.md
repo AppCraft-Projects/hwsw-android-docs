@@ -23,8 +23,8 @@ Tehát nagy anyagról van szó, ezért arra törekedtünk, hogy napi munkában l
 A következő témákról lesz tehát szó a következő órákban:
 
 - [A legacy kód áttekintése](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/01_legacy_code.md)
-- [Android keretrendszer, régen és most](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu02_android_fw_musings.md)
-- [Kotlin gyorstalpaló](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu03_kotlin_basics.md)
+- [Android keretrendszer, régen és most](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/02_android_fw_musings.md)
+- [Kotlin gyorstalpaló](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/03_kotlin_basics.md)
 - [Networking komponens átalakítása OkHttp-vel és Retrofit-tel](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/04_networking_okhttp_retrofit.md)
 - [Képkezelő komponens átalakítása Picasso-val](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/05_image_handling_picasso.md)
 - [Repository komponens rétebevezetése](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/06_repository.md)
