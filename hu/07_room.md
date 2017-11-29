@@ -2,13 +2,13 @@
 
 ## Itt tartunk most
 
-<img src="https://raw.githubusercontent.com/AppCraft-Projects/bgg-demo-app/docs/docs/img/architecture-components-full-room.png" width="420">
+<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/architecture-components-full-room.png" width="420">
 
 ## Mi a Room?
 
 Kezdjük a bal alsó sarokban a *Room*-nál, ez pedig egy *SQL-Java* mappelő könyvtár. Mindössze ennyit csinálunk majd vele.
 
-<img src="https://raw.githubusercontent.com/AppCraft-Projects/bgg-demo-app/docs/docs/img/appui_room.png" width="420">
+<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/appui_room.png" width="420">
 
 ## Két új fogalom
 
