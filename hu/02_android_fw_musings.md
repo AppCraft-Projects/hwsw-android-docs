@@ -1,10 +1,10 @@
-# Gondolatok az Android keretrenszer kapcsán
+# Gondolatok az Android keretrendszer kapcsán
 
 ## Az Android fejlesztés nehéz
 
 Az *Android* fejlesztés nehéz, ugye? Próbáltatok összerakni egyszerűbb appokat mondjuk *Angular*ral, *React*tal vagy *Vue*val, az valahogy sokkal egyszerűbben indul egész.
 
-Feladat | Web | Android m
+Feladat | Web | Android
 ------- | --- | -------                      
 Hello World | Egyszerű | Egyszerű 
 Adat letöltés és megjelenítés | Egyszerű | Trükkös 
