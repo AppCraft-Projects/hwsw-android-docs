@@ -2,21 +2,21 @@
 
 ## Itt tartunk most
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/architecture-components-full-viewmodel.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/architecture-components-full-viewmodel.png" width="420">
 
 ## Néhány bevezető gondolat
 
 Van még itt nekünk egy fogós problémánk. Miért van az, hogy a legtöbb Android fejlesztő azzal kezd egy új appot, hogy letiltja az alkalmazás elforgathatóságát? Nos, a válasz a konfiguráció változás. Ahogy forgatjuk az appot az *Activity*-k létrejönnek, élnek, meghalnak. Valahogy így...
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/lifecycle.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/lifecycle.png" width="420">
 
 Nos, ez az adatbázis kezelés szempontjából nem kifejezetten optimális működés, sok pazarláshoz vezethet. Konkrétan számos költséges lekérdezés megismétléséhez. Avagy minden egyes alkalommal, amikor elforgatja a felhasználó a telefont.
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/lifecycle-database.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/lifecycle-database.png" width="420">
 
 Ezt lehet kicselezni a *ViewModel*-eket, bevezetünk egy újabb réteget, amelynek az életciklusa különáll az *Activity*-től. Túléli az elforgatások hatását, avagy az *Activity*-k létrejöttét és megsemmisítését.
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/lifecycle-viewmodel.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/lifecycle-viewmodel.png" width="420">
 
 ## Mi a ViewModel?
 
@@ -80,7 +80,7 @@ Lássuk a lépéseket sorban:
 
 Összefoglalva ezt csináltuk most: ￼
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/lifecycle-viewmodel-explanation.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/lifecycle-viewmodel-explanation.png" width="420">
 
 Okos, igaz?
 
@@ -95,7 +95,7 @@ Egy fontos részletet azonban nem tárgyaltunk korábban, ez pedig a teljes éle
 **A *Support Library 26.1*-től kezdődően az *Activity* és *Fragment* osztályok implementálják a *LifecycleOwner*-t.**
 
 Így néz ez ki: ￼
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/livedata-observes-notifies.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/livedata-observes-notifies.png" width="420">
 
 Az ide tartozó kódot pedig ismeritek a korábbi példából:
 
@@ -112,10 +112,10 @@ Itt az *Activity*-ben az az *observe* hívást pont ezt a monitorozást váltja 
 
 **FONTOS**, hogy amikor egy *Activity* megsemmisül, akkor ez a monitorozás is végetér, nem lesz semmi csintalan leak, neked pedig ehhez semmit sem kell tenned.
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/livedata-unsubscibe.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/livedata-unsubscibe.png" width="420">
 
 ## Összeállt, amit mára terveztünk
 
 Itt tartunk tehát most a nagy képből, ennyit kínál az *Android Architecture Components*, de ki fogjuk egészíteni a még szükséges komponensekkel. ￼
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/architecture-components-without-networking.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/architecture-components-full.png" width="420">

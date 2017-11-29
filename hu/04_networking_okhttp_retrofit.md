@@ -2,7 +2,7 @@
 
 ## Itt tartunk most
 
-<img src="https://raw.githubusercontent.com/AppCraft-Projects/bgg-demo-app/docs/docs/img/architecture-components-full-networking.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/architecture-components-full-networking.png" width="420">
 
 ## Ahonnan indulunk....
 
@@ -89,7 +89,7 @@ Mind sokat bizonyított, maximálisan érett könyvtárak, és együtt mostanra 
 
 ## OkHttp
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/okhttp.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/okhttp.png" width="420">
 
 Kifejezetten alacsony szintű könyvtárról van szó, az *Android* alap *HTTP* stackét cseréli ki egy modernebbre. A következő néhány előnnyel jár:
 

@@ -10,6 +10,8 @@ Jellemzően nem akkor van a gond, amikor egy új Android projekben kell építen
 
 Majd amikor elkezdtünk alaposan kidolgozni abszolút érezhető volt, rájöttünk, hogy simán van két napnyi anyagunk. Szóval ezen a ponton már ott találtuk magunkat, hogy erősen vágni kell. Sokat gondolkodtunk és úgy döntöttük, hogy megcsináljuk ezt a három órásat, pörgős lesz, fókuszál, kimarad sok-sok téma, de ennek ellenére magában is kerek lesz. Tehát a teljesség igénye nélkül szemléljétek mindezt.
 
+## Erre számítsatok
+
 Ezek alapján biztos érzitek, hogy zúzós dologra vállalkoztok a következő órákban, és bizony feszes lesz a tempó. Ne számítsatok egy hagyományos elmélyülős-mentorálás workshopra. Inkább tekintsetek erre úgy, mint egy interaktív előadásra, ami azért egészen mélyen tud a témában elmerülni.
 
 Gyorsan meg is mutatom az alkalmazást, először, hogy miből indultunk ki, majd ahol most tartunk.
@@ -26,7 +28,7 @@ A következő témákról lesz tehát szó a következő órákban:
 - [Networking komponens átalakítása OkHttp-vel és Retrofit-tel](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/04_networking_okhttp_retrofit.md)
 - [Képkezelő komponens átalakítása Picasso-val](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/05_image_handling_picasso.md)
 - [Repository komponens rétebevezetése](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/06_repository.md)
-- [Adatbáziskezelő komponens átalakítása Room-al]https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/07_room.md)
+- [Adatbáziskezelő komponens átalakítása Room-al](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/07_room.md)
 - [LiveData komponens bevezetése](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/08_livedata.md)
 - [Activity életciklus javítása ViewModel-el](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/09_viewmodel.md)
 - [Linkgyűjtemény](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/10_links.md)
@@ -35,7 +37,7 @@ A következő témákról lesz tehát szó a következő órákban:
 
 Egyébként olyan lesz az egész, mintha egy repülőgépet menet közben építenénk át, apránként cseréljük ki a részeket, és mindezt úgy, hogy az alkalmazás mindig működőképes maradjon.
 
-## Anyagok
+## Anyagok
 
 Számos módon próbálunk nektek segíteni, hogy a nagy tempó ellenére jól tudjatok minket követni. Több repó is elő lett készítve: 
 
@@ -44,7 +46,7 @@ Számos módon próbálunk nektek segíteni, hogy a nagy tempó ellenére jól t
 - Jegyzetek: [http://bit.ly/hwsw-android-workshop-notes](http://bit.ly/hwsw-android-notes),
 - Prezi: [http://bit.ly/hwsw-android-workshop-presentation](http://bit.ly/hwsw-android-presentation).
 
-## Mit találtok itt?
+## Mit találtok itt?
 - A backendet úgy döntöttünk legyen offline is elérhető, így időnként könnyebb dolgozni vele.
 - Az Android appon fogunk mi dolgozni, itt tartalom szerint láthatjátok a commitokat sorban. Igazából mindegyikhez két commit lesz, egyrészt megtaláljátok majd a régi verziót kommentelve, majd a következőben a változtatásokat.
 - Mindegyik lépéshez a jegyzeteket. 
@@ -56,10 +58,13 @@ Mindenek előtt a backendet setupoljátok fel a repóban leírtak szerint. Ha ni
 
 Ezeket használva nem kell a jegyzeteléssel időt tölteni, mert szinte minden le van írva. Valamint akkor sem lesz baj, ha valahol lemaradtok, mindent lehet később otthonról pótolni.
 
-Kérdés esetén minket a következő email címeken értek el:
-gabor (pötty) orosz (kukac) appcraft (pötty) hu
-motibi89 (kukac) gmail (pötty) com
-
 Még utolsó gondolat, ha kérdés van, akkor nyugodtan kezet fel, adjatok füstjelet, kukorékoljatok, ami jól esik. Közbe is nyugodtan, de a végén lesz 20-30 perc, amit külön a Q&A-re dedikálunk.
+
+## Kérdésed van?
+
+A következő email címeken értek el:
+
+- *Gábor*: gabor (pötty) orosz (kukac) appcraft (pötty) hu
+- *Tibi*: motibi89 (kukac) gmail (pötty) com
 
 Ennyit a bevezetésről, csapjunk bele!

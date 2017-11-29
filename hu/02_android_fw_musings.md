@@ -12,7 +12,7 @@ Komplex app | Nehéz | Nehéz és trükkös
 
 Mindemelett kevesebb fogalmat, kevesebb osztályt és metódust kell megtanulni és fejben tartani. És mennyivel kevesebb a boilerplate!
 
-Évek óta morgok ezen, hogy a Google kényelmesen úgy gondoltak, hogy csak ad egy keretrendszert, és ezzel az Ő dolgának vége.
+Évek óta morgok ezen, hogy a Google kényelmesen úgy gondolták, hogy csak adnak egy keretrendszert, valami alacsony szintűt, és ezzel az Ő dolguk véget ért.
 
 ## A Google nem foglalt állást...
 
@@ -33,7 +33,7 @@ koncepciókat.
 
 ### MVC
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/mvc.png" width="300">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/mvc.png" width="300">
 
 A 80-as években a *SmallTalk*kal terjedt el igazán, majd sokan átvették az ötletet. Az *Objective-C* és a *Cocoa* keretrenszer fejlesztői különösen sokat inspirálódtak belőle. Így szivárgott át később a *CocoaTouch*-ba, avagy az *iOS* fejlesztők eszköztárába is. Ezt követően persze sok más terülekre is átszivárgott.
 
@@ -49,7 +49,7 @@ Ilyesfajta állapot szinkronizálásához szépen passzolhat egy *Data Binding* 
 
 ### MVP
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/mvp.png" width="300">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/mvp.png" width="300">
 
 A fő cél, hogy a logika minél nagyobb részét kivigyük a viewból.
 
@@ -65,7 +65,7 @@ Ez pedig a tesztelésnél válik igazán hasznossá, nem kell a valós Androidos
 
 ### MVVM
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/mvvm.png" width="300">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/mvvm.png" width="300">
 
 A harmadik és egyúttal utolsó az *MVVM*, ez is egy klasszikus minta. Valahol az előző kettő közötti megoldásról van szó.
 
@@ -101,7 +101,7 @@ Szóval úgy röpke 10 évvel az első Android megjelenése után a Googlenél i
 
 Elsőre durván hangzik, de gondoljatok csak bele, mert a maga szempontjából igaza van. Ehhez pedig az alapokat rendbe kell szedni.
 
-A céljaik a következők voltak:
+## A céljaik a következők voltak
 
 * Az egyszerű dolgok tényleg legyenek egyszerűek.
 * A bonyolultak legyenek lehetségesek.
@@ -118,7 +118,7 @@ Bevezettek tehát néhány architektúrális komponenst / fogalmat:
 
 Így néz ki az architektúra ajánlása egészében:
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/architecture-components-full.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/architecture-components-full.png" width="420">
 
 Külön-külön is használhatóak ezek a komponensek, de együtt lesz igazán érdekes. Ezt egyelőre csak felületesen veszem át, de rövidesen részeltesebben is ránézek az egyes részekre.
 

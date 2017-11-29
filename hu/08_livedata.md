@@ -2,7 +2,7 @@
 
 ## Itt tartunk most
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/architecture-components-full-livedata.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/architecture-components-full-livedata.png" width="420">
 
 ## Mi a LiveData?
 Lépjünk egyet tovább, tegyük fel, hogy egy tisztességes reaktív alkalmazást akarunk építeni, ez esetben jól fog jönni a *LiveData*, a második architektúra komponensünk. Ezzel monitorozhatóak a adatváltozások az adatbázisban.
@@ -11,7 +11,7 @@ Lépjünk egyet tovább, tegyük fel, hogy egy tisztességes reaktív alkalmazá
 
 Így illeszkedik ez a komponenens a mi kis egyszerű alkalmazásunkba...
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/livedata-appui-room-twoway.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/livedata-appui-room-twoway.png" width="420">
 
 ## Két új fogalom
 
@@ -42,7 +42,7 @@ Tehát...
 
 Valahogy így lehet ezt vizualizálni szépen: ￼
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/livedata-thursday.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/livedata-thursday.png" width="420">
 
 ## Egyszerű megváltoztatni az értékét
 
@@ -64,7 +64,7 @@ dayOfWeek.postValue(“Friday”);
 
 Ez is vizualizálva: ￼
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/livedata-friday.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/livedata-friday.png" width="420">
 
 ## Room támogatás
 
@@ -113,7 +113,7 @@ userLiveData.observe(this, users -> {
 2. frissül a *LiveData*,
 3. a *UI* is értesítve lesz az eseményről, így az szintén frissülhet.
 
-<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/livedata-appui-room-oneway.png" width="420">
+<img src="https://raw.githubusercontent.com/AppCraft-Projects/hwsw-android-docs/master/img/livedata-appui-room-oneway.png" width="420">
 
 ## Transzformációk
 
