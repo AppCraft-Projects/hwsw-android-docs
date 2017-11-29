@@ -2,7 +2,7 @@
 
 ## Itt tartunk most
 
-<img src="https://raw.githubusercontent.com/AppCraft-Projects/bgg-demo-app/docs/docs/img/architecture-components-full-networking.png" width="420">
+<img src="https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/img/architecture-components-full-networking.png" width="420">
 
 ## Pár gondolat előzetesen
 

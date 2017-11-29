@@ -20,17 +20,17 @@ Tehát nagy anyagról van szó, ezért arra törekedtünk, hogy napi munkában l
 
 A következő témákról lesz tehát szó a következő órákban:
 
-- [A legacy kód áttekintése](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/01_legacy_code.md)
-- [Android keretrendszer, régen és most](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/02_android_fw_musings.md)
-- [Kotlin gyorstalpaló](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/03_kotlin_basics.md)
-- [Networking komponens átalakítása OkHttp-vel és Retrofit-tel](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/04_networking_okhttp_retrofit.md)
-- [Képkezelő komponens átalakítása Picasso-val](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/05_image_handling_picasso.md)
-- [Repository komponens rétebevezetése](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/06_repository.md)
-- [Adatbáziskezelő komponens átalakítása Room-al]https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/07_room.md)
-- [LiveData komponens bevezetése](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/08_livedata.md)
-- [Activity életciklus javítása ViewModel-el](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/09_viewmodel.md)
-- [Linkgyűjtemény](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/10_links.md)
-- [Ami kimaradt...](https://github.com/AppCraft-Projects/bgg-demo-app/blob/docs/docs/hu/11_missing_topics.md)
+- [A legacy kód áttekintése](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/01_legacy_code.md)
+- [Android keretrendszer, régen és most](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu02_android_fw_musings.md)
+- [Kotlin gyorstalpaló](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu03_kotlin_basics.md)
+- [Networking komponens átalakítása OkHttp-vel és Retrofit-tel](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/04_networking_okhttp_retrofit.md)
+- [Képkezelő komponens átalakítása Picasso-val](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/05_image_handling_picasso.md)
+- [Repository komponens rétebevezetése](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/06_repository.md)
+- [Adatbáziskezelő komponens átalakítása Room-al]https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/07_room.md)
+- [LiveData komponens bevezetése](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/08_livedata.md)
+- [Activity életciklus javítása ViewModel-el](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/09_viewmodel.md)
+- [Linkgyűjtemény](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/10_links.md)
+- [Ami kimaradt...](https://github.com/AppCraft-Projects/hwsw-android-docs/blob/master/hu/11_missing_topics.md)
 - Q&A
 
 Egyébként olyan lesz az egész, mintha egy repülőgépet menet közben építenénk át, apránként cseréljük ki a részeket, és mindezt úgy, hogy az alkalmazás mindig működőképes maradjon.
