@@ -57,7 +57,7 @@ Amennyiben az egy tábla vagy oszlop neve eltérne az osztály vagy egy tulajdon
 * **@Entity(tableName = “users”)**: Összeköti a *User* osztályt a *users* táblával.
 * **@ColumnInfo(name = “user_id”)**: Összeköti az *id* tulajdonságot a *user_id* osztloppal.
 
-### DAO
+### DAO
 
 Mindegyik *POJO*-hoz tartozik egy *DAO (Database Access Object)* is, ahol minden egyes funckió egy SQLite parancsnak felel meg.
 
